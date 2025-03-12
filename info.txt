@@ -1,0 +1,22 @@
+https://github.com/shkonka/tg_learn.git
+
+py -3.12 -m venv venv создание виртуального окружения
+venv\Scripts\activate.bat или venv\Scripts\activate активация виртуального окружение
+deactivate диеактивация
+
+git status                    # Смотрим статус
+git add <file>                # Добавляем файл
+git commit -m "Коммит"        # Делаем коммит
+git log --oneline --graph     # Смотрим историю коммитов
+git commit -am "Комментарий к коммиту"
+git add . && git commit -m "Комментарий к коммиту"
+
+git init	Инициализация нового репозитория
+git status	Статус файлов
+git add <file>	Добавить файл в индекс
+git commit -m "..."	Сделать коммит
+git log	История коммитов
+git diff	Посмотреть разницу в изменённых файлах
+git push / git pull	Отправка/получение изменений на/с сервера
+git remote add origin URL	Привязка к удалённому репозиторию
+git remote -v проверка привязки к гитхабу 
